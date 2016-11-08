@@ -61,6 +61,7 @@ class GridView: UIView {
         }
         context.strokePath()
         
+        // dummy values, need to get from matrix in ViewController
         let occupancy = [
             [0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0],
             [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
